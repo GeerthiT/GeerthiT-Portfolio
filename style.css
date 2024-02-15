@@ -431,3 +431,17 @@ footer {
 footer p {
   text-align: center;
 }
+
+.circular-frame {
+  width: 400px; /* Adjust the size of the circular frame as needed */
+  height: 400px; /* Adjust the size of the circular frame as needed */
+  border-radius: 50%; /* This makes the frame circular */
+  overflow: hidden; /* This ensures the image stays within the circular frame */
+}
+
+/* Style for the image */
+.circular-frame img {
+  width: 100%; /* Make the image fill the circular frame */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure the image is displayed as a block element */
+}
